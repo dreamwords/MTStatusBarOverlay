@@ -153,7 +153,7 @@ kDetailViewWidth, kHistoryTableRowHeight*kMaxHistoryTableRowCount + kStatusBarHe
 ///////////////////////////////////////////////////////
 
 // Size of the text in the status labels
-#define kStatusLabelSize				12.f
+#define kStatusLabelSize				14.f
 
 // default-width of the small-mode
 #define kWidthSmall						26.f
