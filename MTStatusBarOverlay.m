@@ -353,14 +353,14 @@ kDetailViewWidth, kHistoryTableRowHeight*kMaxHistoryTableRowCount + kStatusBarHe
         oldBackgroundViewFrame_ = backgroundView_.frame;
         
 		// Add gesture recognizers
-		UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(contentViewClicked:)];
+//		UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(contentViewClicked:)];
 		//UISwipeGestureRecognizer *upGestureRecognizer = [[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(contentViewSwipedUp:)] autorelease];
 		//UISwipeGestureRecognizer *downGestureRecognizer = [[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(contentViewSwipedDown:)] autorelease];
         
 		//upGestureRecognizer.direction = UISwipeGestureRecognizerDirectionUp;
 		//downGestureRecognizer.direction = UISwipeGestureRecognizerDirectionDown;
         
-		[backgroundView_ addGestureRecognizer:tapGestureRecognizer];
+//		[backgroundView_ addGestureRecognizer:tapGestureRecognizer];
 		//[detailView_ addGestureRecognizer:upGestureRecognizer];
 		//[self addGestureRecognizer:downGestureRecognizer];
         
